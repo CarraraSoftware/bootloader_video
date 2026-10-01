@@ -73,6 +73,7 @@ como um ponto de partida para a sua configuração de compilação.
 cd <caminho para bootloader_video>/
 git clone https://github.com/torvalds/linux.git <caminho para o kernel>/
 cp kernel.config <caminho para o kernel>/.config
+cd <caminho para o kernel>
 make
 cp <caminho para o kernel>/arch/x86/boot/bzImage LINUX
 ```
@@ -89,6 +90,7 @@ cp <caminho para o kernel>/arch/x86/boot/bzImage LINUX
 cd <caminho para bootloader_video>/
 git clone https://github.com/mirror/busybox.git <caminho para o busybox>/
 cp busybox.config <caminho para o busybox>/.config
+cd <caminho para o busybox>
 make
 cp <caminho para o busybox>/busybox busybox
 ```
