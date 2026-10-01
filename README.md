@@ -36,7 +36,7 @@ Para bootar o kernel você precisará dos arquivos binários:
 - init
 
 Você pode encontrar os arquivos pré-compilados que eu utilizei no vídeo,
-na página de [releases](@TODO: adicionar link para página de releases) desse repositório.
+na página de [releases](https://github.com/CarraraSoftware/bootloader_video/releases/tag/TOSHIB%C3%83O) desse repositório.
 
 Tendo os binários em mãos basta executar:
 ```bash
